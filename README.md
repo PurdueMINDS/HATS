@@ -25,7 +25,7 @@ For the sequence based tasks, please use the following format:
 * Permitted models are {deepsets,lstm,gru,cnn,hats,hier}
 
 For the graph based tasks, we have provided an example below:
-* python train.py -m hier -t inter_sum -i 2 -lr 0.001
+* python train.py -m hats -t inter_sum -i 2 -lr 0.001
 
 We recommend training these models on a GPU.
 
